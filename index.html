@@ -4,14 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Youtube API</title>
   </head>
   <body>
-    <div class="container">
+    <!-- <div class="container">
       <h1>Youtube API Data</h1>
       <img id="covImage" />
       <div id="sub-count"></div>
+    </div> -->
+<div class="search-bars">
+  
+  
+</div>
+<div class="container">
+  <div class="search-column" >
+    <div >
+      <form id="first-search-form">
+        <input type='text' id="first-search-bar">
+      </form>
     </div>
+    <ul class="search-ul" id="first-search-ul"></ul>
+  </div>
+  <div class="middle-column"></div>
+  <div class="search-column" id="second-search">
+    <div >
+      <form id="second-search-form">
+        <input type='text' id="second-search-bar">
+      </form>
+    </div>
+    <ul class="search-ul" id="second-search-ul"></ul>
+  </div>
+</div>
     <script src="index.js"></script>
   </body>
 </html>
