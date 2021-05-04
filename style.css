@@ -1,0 +1,19 @@
+.search-bars{
+    display:flex;
+    justify-content: space-around;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.search-column{
+    min-width: 300px;
+    min-height: 600px;
+    background-color: grey;
+}
+.middle-column{
+    min-width: 150px;
+    max-width:200px;
+    background-color: red;
+}
